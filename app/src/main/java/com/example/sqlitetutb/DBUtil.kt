@@ -11,7 +11,7 @@ class DBUtil(context: Context) {
 
 
     fun insertEmployee(name: String, salary: Int) {
-//            empty set of object
+//            empty object
         var contentValues = ContentValues()
         contentValues.put("name", name)
         contentValues.put("salary", salary)
